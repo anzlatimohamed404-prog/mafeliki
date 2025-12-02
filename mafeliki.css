@@ -59,6 +59,8 @@ nav{
 nav ul{
     list-style-type: none;/* je retire le puce de la list*/
     padding: 0;
+
+    
 }
 
 form{
