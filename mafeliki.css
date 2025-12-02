@@ -1,27 +1,82 @@
-td{
-    border: 1px solid black;
-    padding: 15px;
-    color: brown;
+table,td,th{
+    border-style: solid;
+    padding: 7px;
+    color: black;
     font-size: 30px;
 }
 
-table{
+table,td,th{
     margin: auto;
-    background-color: yellow;
+    background-color:tan;
     border-collapse: collapse;
+    width: 15px;
+    
+    
+}
+
+/* mise en forme pour l'entéte*/
+body{
+    background-color:#666;/* l'arriere plan est colorier en gris*/
+    padding: 20px;/* l'entete est élargie est 30px de hauteur*/
+    text-align: center;/* le texte est aligné est centre*/
+    color:black;/*j'ai modifier la couleur du texte avec (color)*/
+    font-size: 15px;/*l'entéte est élargie est 30px de hauteur*/
+    
 }
 
 th{
-    border: 1px solid black;
+    border-style: solid;
     padding: 16px;
 }
 
 caption{
     border: 1px solid black;
     padding: 20px;
-    background-color: orange;
+    background-color: tan;
     font-size: 50px;
 }
 img{
     padding: 10px;
+}
+article{
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: plum;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    color: black;/* j'ai modifier la couleur de mon text*/
+    margin: 10px;
+}
+nav{
+    -webkit-box-flex:1 ;
+    -ms-flex: 1;
+    background: rgb(238, 124, 187);
+    padding: 20px;
+}
+/* mise en forme de la liste UL de la balise <nav>*/
+nav ul{
+    list-style-type: none;/* je retire le puce de la list*/
+    padding: 0;
+}
+
+form{
+    background-color: aquamarine;
+    padding: 25px;
+    text-align: center;
+    margin: 30px;
+}
+
+textarea{
+    
+    width: 45%;
+    height: 80px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+    outline: none;
+
 }
